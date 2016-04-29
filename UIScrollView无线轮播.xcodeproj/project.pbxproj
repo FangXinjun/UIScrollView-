@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22DDA3FC1CD31230008F9932 /* 001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22DDA3F91CD31230008F9932 /* 001.jpg */; };
+		22DDA3FD1CD31230008F9932 /* 002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22DDA3FA1CD31230008F9932 /* 002.jpg */; };
+		22DDA3FE1CD31230008F9932 /* 003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22DDA3FB1CD31230008F9932 /* 003.jpg */; };
 		22F98E811CD20AEF003CD62D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F98E801CD20AEF003CD62D /* main.m */; };
 		22F98E841CD20AEF003CD62D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F98E831CD20AEF003CD62D /* AppDelegate.m */; };
 		22F98E871CD20AEF003CD62D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F98E861CD20AEF003CD62D /* ViewController.m */; };
@@ -15,9 +18,6 @@
 		22F98E8F1CD20AEF003CD62D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F98E8D1CD20AEF003CD62D /* LaunchScreen.storyboard */; };
 		22F98E9A1CD20AEF003CD62D /* UIScrollView____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F98E991CD20AEF003CD62D /* UIScrollView____Tests.m */; };
 		22F98EA51CD20AEF003CD62D /* UIScrollView____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F98EA41CD20AEF003CD62D /* UIScrollView____UITests.m */; };
-		22F98EB51CD21769003CD62D /* 001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22F98EB21CD21769003CD62D /* 001.jpg */; };
-		22F98EB61CD21769003CD62D /* 002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22F98EB31CD21769003CD62D /* 002.jpg */; };
-		22F98EB71CD21769003CD62D /* 003.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22F98EB41CD21769003CD62D /* 003.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22DDA3F91CD31230008F9932 /* 001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001.jpg; sourceTree = "<group>"; };
+		22DDA3FA1CD31230008F9932 /* 002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 002.jpg; sourceTree = "<group>"; };
+		22DDA3FB1CD31230008F9932 /* 003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 003.jpg; sourceTree = "<group>"; };
 		22F98E7C1CD20AEF003CD62D /* UIScrollView无线轮播.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIScrollView无线轮播.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F98E801CD20AEF003CD62D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		22F98E821CD20AEF003CD62D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,9 +57,6 @@
 		22F98EA01CD20AEF003CD62D /* UIScrollView无线轮播UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIScrollView无线轮播UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22F98EA41CD20AEF003CD62D /* UIScrollView____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView____UITests.m"; sourceTree = "<group>"; };
 		22F98EA61CD20AEF003CD62D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		22F98EB21CD21769003CD62D /* 001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 001.jpg; sourceTree = "<group>"; };
-		22F98EB31CD21769003CD62D /* 002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 002.jpg; sourceTree = "<group>"; };
-		22F98EB41CD21769003CD62D /* 003.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 003.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +107,9 @@
 		22F98E7E1CD20AEF003CD62D /* UIScrollView无线轮播 */ = {
 			isa = PBXGroup;
 			children = (
-				22F98EB21CD21769003CD62D /* 001.jpg */,
-				22F98EB31CD21769003CD62D /* 002.jpg */,
-				22F98EB41CD21769003CD62D /* 003.jpg */,
+				22DDA3F91CD31230008F9932 /* 001.jpg */,
+				22DDA3FA1CD31230008F9932 /* 002.jpg */,
+				22DDA3FB1CD31230008F9932 /* 003.jpg */,
 				22F98E821CD20AEF003CD62D /* AppDelegate.h */,
 				22F98E831CD20AEF003CD62D /* AppDelegate.m */,
 				22F98E851CD20AEF003CD62D /* ViewController.h */,
@@ -258,9 +258,9 @@
 				22F98E8F1CD20AEF003CD62D /* LaunchScreen.storyboard in Resources */,
 				22F98E8C1CD20AEF003CD62D /* Assets.xcassets in Resources */,
 				22F98E8A1CD20AEF003CD62D /* Main.storyboard in Resources */,
-				22F98EB71CD21769003CD62D /* 003.jpg in Resources */,
-				22F98EB61CD21769003CD62D /* 002.jpg in Resources */,
-				22F98EB51CD21769003CD62D /* 001.jpg in Resources */,
+				22DDA3FE1CD31230008F9932 /* 003.jpg in Resources */,
+				22DDA3FD1CD31230008F9932 /* 002.jpg in Resources */,
+				22DDA3FC1CD31230008F9932 /* 001.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -513,6 +513,7 @@
 				22F98EAB1CD20AEF003CD62D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22F98EAC1CD20AEF003CD62D /* Build configuration list for PBXNativeTarget "UIScrollView无线轮播Tests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +522,7 @@
 				22F98EAE1CD20AEF003CD62D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22F98EAF1CD20AEF003CD62D /* Build configuration list for PBXNativeTarget "UIScrollView无线轮播UITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +531,7 @@
 				22F98EB11CD20AEF003CD62D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
